@@ -25,7 +25,7 @@ public class Food : MonoBehaviour
         SirH.fillAmount = sir / 100;
         PlayerPrefs.SetFloat("kolbasa", kolbasa);
         PlayerPrefs.SetFloat("sir", sir);
-        if((kolbasa >= 0) | (sir >= 0))
+        if((kolbasa <= 0) | (sir <= 0))
         {
             Debug.Log("Smert");
         }
