@@ -19,11 +19,11 @@ public class CMCamera : MonoBehaviour
     {
 
         transform.position = new Vector3(0, lift, distance) + (Cat.transform.position + Mouse.transform.position) / 2;
-        f = Math.Sqrt(Math.Pow(Cat.transform.position.x - Mouse.transform.position.x, 2) + Math.Pow(Cat.transform.position.y - Mouse.transform.position.y, 2)) * startSize / startRast;
+        /*f = Math.Sqrt(Math.Pow(Cat.transform.position.x - Mouse.transform.position.x, 2) + Math.Pow(Cat.transform.position.y - Mouse.transform.position.y, 2)) * startSize / startRast;
         if (f >= startSize)
         {
             Cam.orthographicSize = float.Parse(f.ToString());
-        }
+        }*/
 
     }
 }
