@@ -69,3 +69,4 @@ Desktop.ini
 # GIT
 bruh/.git
 bruh/Logs/AssetImportWorker0-prev.log
+*.log
