@@ -53,9 +53,12 @@
     <UnityVersion>2020.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\cmove.cs" />
     <Compile Include="Assets\Scripts\CMCamera.cs" />
     <Compile Include="Assets\Scripts\mmove.cs" />
+    <Compile Include="Assets\Scripts\Food.cs" />
+    <Compile Include="Assets\Scripts\cmove.cs" />
+    <Compile Include="Assets\Scripts\FoodSir.cs" />
+    <Compile Include="Assets\Scripts\FoodKolbasa.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
