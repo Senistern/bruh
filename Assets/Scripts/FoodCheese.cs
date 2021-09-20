@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FoodSir : MonoBehaviour
+public class FoodCheese : MonoBehaviour
 {
     public GameObject Sir;
     public float amount;
