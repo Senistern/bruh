@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 617331d782f2a3349a8702ea94c9d280
+guid: caf082042ac7c71478772245d50ca771
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1497908024036064859
-    second: catwaksright_0
+      213: -7185651122969514136
+    second: catwaksright (3)_1
   - first:
-      213: -1794825163530957367
-    second: catwaksright_1
+      213: -2739968400097232595
+    second: catwaksright (3)_2
   - first:
-      213: -3203356523024226062
-    second: catwaksright_2
+      213: 479370023660563079
+    second: catwaksright (3)_3
   - first:
-      213: -2534585486173281951
-    second: catwaksright_3
+      213: -1646868456034051120
+    second: catwaksright (3)_4
   - first:
-      213: -6060331264769256557
-    second: catwaksright_4
+      213: -5321794332110587641
+    second: catwaksright (3)_5
   - first:
-      213: -5662032566346533119
-    second: catwaksright_5
+      213: -3314006060080622495
+    second: catwaksright (3)_6
   - first:
-      213: -6469498103107183076
-    second: catwaksright_6
+      213: -1289674351942048501
+    second: catwaksright (3)_7
   - first:
-      213: -1766301727714440064
-    second: catwaksright_7
+      213: -6144246396770639733
+    second: catwaksright (3)_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +89,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -103,12 +115,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: catwaksright_0
+      name: catwaksright (3)_1
       rect:
         serializedVersion: 2
-        x: 0
+        x: 391
         y: 0
-        width: 815.5
+        width: 815
         height: 1037
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -117,19 +129,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5e70ee5963a9c410800000000000000
-      internalID: 1497908024036064859
+      spriteID: 86fe387ff50774c90800000000000000
+      internalID: -7185651122969514136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catwaksright_1
+      name: catwaksright (3)_2
       rect:
         serializedVersion: 2
-        x: 815
+        x: 1231
         y: 0
-        width: 815.5
+        width: 815
         height: 1037
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -138,19 +150,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cd0ecde5008717e0800000000000000
-      internalID: -1794825163530957367
+      spriteID: d29b860d14da9f9d0800000000000000
+      internalID: -2739968400097232595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catwaksright_2
+      name: catwaksright (3)_3
       rect:
         serializedVersion: 2
-        x: 1630
+        x: 2198
         y: 0
-        width: 815.5
+        width: 815
         height: 1037
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -159,19 +171,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f8e534e6346b83d0800000000000000
-      internalID: -3203356523024226062
+      spriteID: 78a22482f7017a600800000000000000
+      internalID: 479370023660563079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catwaksright_3
+      name: catwaksright (3)_4
       rect:
         serializedVersion: 2
-        x: 2445
+        x: 3008
         y: 0
-        width: 815.5
+        width: 815
         height: 1037
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -180,19 +192,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 161e7cbdde753dcd0800000000000000
-      internalID: -2534585486173281951
+      spriteID: 0db5b4e5dd52529e0800000000000000
+      internalID: -1646868456034051120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catwaksright_4
+      name: catwaksright (3)_5
       rect:
         serializedVersion: 2
-        x: 3260
+        x: 3860
         y: 0
-        width: 815.5
+        width: 815
         height: 1037
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -201,19 +213,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3931c3ed2d065eba0800000000000000
-      internalID: -6060331264769256557
+      spriteID: 7097cd240403526b0800000000000000
+      internalID: -5321794332110587641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catwaksright_5
+      name: catwaksright (3)_6
       rect:
         serializedVersion: 2
-        x: 4075
+        x: 4733
         y: 0
-        width: 815.5
+        width: 815
         height: 1037
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -222,19 +234,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 107b830316b6c61b0800000000000000
-      internalID: -5662032566346533119
+      spriteID: 1641765fb094202d0800000000000000
+      internalID: -3314006060080622495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catwaksright_6
+      name: catwaksright (3)_7
       rect:
         serializedVersion: 2
-        x: 4890
+        x: 5575
         y: 0
-        width: 815.5
+        width: 815
         height: 1037
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -243,19 +255,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1e9b3980c9b736a0800000000000000
-      internalID: -6469498103107183076
+      spriteID: b05ef8882082a1ee0800000000000000
+      internalID: -1289674351942048501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catwaksright_7
+      name: catwaksright (3)_8
       rect:
         serializedVersion: 2
-        x: 5705
+        x: 6384
         y: 0
-        width: 815.5
+        width: 815
         height: 1037
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -264,8 +276,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08c0c69dfe5dc77e0800000000000000
-      internalID: -1766301727714440064
+      spriteID: b80230ca4704bbaa0800000000000000
+      internalID: -6144246396770639733
       vertices: []
       indices: 
       edges: []
