@@ -10,9 +10,10 @@ public class cmove : MonoBehaviour
     public Animator anim;
     private Rigidbody2D rb;
 
-
-    private void Start()
+    public int catEnd = 0;
+    public void Start()
     {
+        PlayerPrefs.SetInt("catEnd", 0);
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
@@ -38,6 +39,13 @@ public class cmove : MonoBehaviour
         else
         {
             anim.Play("CatStay");
+        }
+    }
+    void OnTriggerEnter2D(Collider2D catEnd)
+    {
+        if (catEnd.gameObject.tag == "catEnd")
+        {
+            PlayerPrefs.SetInt("catEnd", 1);
         }
     }
     void Flip()

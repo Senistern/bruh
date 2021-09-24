@@ -18,8 +18,10 @@ public class mmove : MonoBehaviour
 
     private int extraJumps;
     public int extraJumpsValue;
-    private void Start()
+    public int mouseEnd = 0;
+    public void Start()
     {
+        PlayerPrefs.SetInt("mouseEnd", 0);
         extraJumps = extraJumpsValue;
         rb = GetComponent<Rigidbody2D>();
     }
@@ -38,22 +40,30 @@ public class mmove : MonoBehaviour
         }
 
     }
-    private void Update()
+    public void Update()
     {
         if (isGrounded == true)
         {
             extraJumps = extraJumpsValue;
         }
-        if (Input.GetKeyDown(KeyCode.Space) && extraJumps > 0)
+        if (Input.GetKey(KeyCode.UpArrow) && extraJumps > 0)
         {
             rb.velocity = Vector2.up * jumpForce;
             extraJumps--;
 
 
         }
-        else if (Input.GetKeyDown(KeyCode.Space) && extraJumps == 0 && isGrounded == true)
+        else if (Input.GetKey(KeyCode.UpArrow) && extraJumps == 0 && isGrounded == true)
         {
             rb.velocity = Vector2.up * jumpForce;
+        }
+        
+    }
+    void OnTriggerEnter2D(Collider2D mouseEnd)
+    {
+        if (mouseEnd.gameObject.tag == "mouseEnd")
+        {
+            PlayerPrefs.SetInt("mouseEnd", 1);
         }
     }
     void Flip()
